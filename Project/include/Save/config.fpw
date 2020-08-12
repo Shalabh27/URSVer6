@@ -1,0 +1,26 @@
+_startup = ""
+_browser = ""
+_spellchk = ""
+_genmenu = ""
+_gengraph = ""
+_genxtab = ""
+_coverage = ""
+_scctext = ""
+_converter = ""
+_transporter = ""
+_builder = ""
+_wizard = ""
+_REPORTPREVIEW = "frxpreview.prg"
+
+
+Century=on
+Codepage=1252
+Deleted=on
+Exclusive=off
+Multilocks=on
+Outshow=on   
+Resource=off
+Safety=off
+Screen=off
+Strictdate=0
+Talk=off

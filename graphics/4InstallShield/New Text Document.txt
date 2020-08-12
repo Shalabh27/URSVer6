@@ -1,0 +1,2 @@
+<ISProductFolder>\Support\Themes\Global Theme\banner.jpg
+<ISProductFolder>\Redist\Language Independent\OS Independent\IsDialogBanner.ibd

@@ -1,0 +1,10 @@
+Century=On
+Codepage=1252
+Deleted=On
+Exclusive=Off
+Multilocks=On
+Path=..\data;progs;forms;..\libs;editable_files
+Safety=Off
+Strictdate=0
+Talk=Off
+Clock=Status

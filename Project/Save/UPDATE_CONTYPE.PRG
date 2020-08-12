@@ -1,0 +1,20 @@
+* jss, 6/25/07
+* update_contype.prg: short program to create the sql to update contype in lookups table
+Close Databases
+Clear
+Open Database I:\URSVER6\DATA\URS.DBC
+set textmerge on to add_contype.sql
+Use CONTYPE Order CODE
+NMAX_LOOKUP=2523 && got this from AIDA
+Scan FOR CODE>='200' && AIRS codes, not found in URS
+   NMAX_LOOKUP=NMAX_LOOKUP+1
+   CLOOKUP_ID='000000'+Alltrim(Str(NMAX_LOOKUP))
+
+   \insert into lookups (lookup_id, tc, varname, code, descript, adult) 
+   \   values ('<<clookup_id>>', '00002', 'CONTYPE', '<<code>>', '<<descript>>',0)
+   \
+Endscan
+set textmerge to
+set textmerge off
+Close Databases   
+

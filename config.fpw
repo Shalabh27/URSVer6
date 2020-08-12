@@ -1,0 +1,10 @@
+Century=on
+Codepage=1252
+Deleted=on
+Exclusive=off
+Multilocks=on
+Path=data;project\progs;project\forms;libs
+Safety=off
+Strictdate=0
+Talk=off
+Command=Do I:\URSVer6\Software\Thor\Thor.app

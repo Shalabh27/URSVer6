@@ -1,0 +1,1 @@
+Do urs.exe with 'i:\ursver6\data\urs'

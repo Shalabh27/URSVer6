@@ -1,0 +1,23 @@
+_browser = ""
+_builder = ""
+_converter = ""
+_coverage = ""
+_gengraph = ""
+_genmenu = ""
+_genxtab = ""
+_scctext = ""
+_spellchk = ""
+_startup = ""
+_transporter = ""
+_wizard = ""
+
+screen=Off
+STACKSIZE = 200
+century = On
+exclusive = Off
+multilocks = On
+outshow = On
+path = data
+resource = Off
+safety = Off
+talk = Off
